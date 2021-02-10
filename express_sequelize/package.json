@@ -1,0 +1,23 @@
+{
+  "name": "conection_db",
+  "version": "1.0.0",
+  "description": "coneccion a la base de datos desde react native",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.44.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
